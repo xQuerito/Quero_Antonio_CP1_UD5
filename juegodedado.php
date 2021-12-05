@@ -2,6 +2,7 @@
 
 //Definición de la clase
 class Dado {
+	
 // Declaración de propiedades
 private $minNumDado = '1';
 private $maxNumDado = '12';
@@ -20,7 +21,8 @@ public function getMaxNumDado()
 //Declaración del método
 public function tirarDado(){
     echo rand ($minNumDado,$maxNumDado);
-}
+	
+	}
 }
 
 ?>
